@@ -14,10 +14,6 @@ entries:
     name: wikijs
     type: application
     urls:
-<<<<<<< HEAD
     - https://skhedim.github.io/helm-charts/wikijs-0.1.0.tgz
-=======
-    - wikijs-0.1.0.tgz
->>>>>>> 955097123b8864e206ef7759e8d85d99133bf318
     version: 0.1.0
 generated: "2020-04-17T09:56:38.826198388Z"
