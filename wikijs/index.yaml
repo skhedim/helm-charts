@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  postgresql:
+  - apiVersion: v1
+    appVersion: 11.7.0
+    created: "2020-04-17T09:54:13.406544927Z"
+    description: Chart for PostgreSQL, an object-relational database management system
+      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: 745953ffac81f065b4681821d409d08215a17b3b2f45f064870cca4113161450
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - https://skhedim.github.io/helm-charts/charts/postgresql-8.4.3.tgz
+    version: 8.4.3
+generated: "2020-04-17T09:54:13.404244385Z"
