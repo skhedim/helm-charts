@@ -1,0 +1,31 @@
+# Default values for wikijs.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image:
+ repository: requarks/wiki
+ tag: 2
+
+replicaCount: 1
+
+service:
+ port: "3000"
+
+dbConfig:
+ type: postgres
+ port: 5432
+ name: wikijs
+ user: postgres
+ pass: postgres
+
+ingress:
+ enabled: false
+ url: "toto.local"
+
+postgresql:
+ enabled: true
+ postgresqlUsername: postgres
+ postgresqlPassword: postgres
+ postgresqlDatabase: wikijs
+ persistence:
+  enabled: false

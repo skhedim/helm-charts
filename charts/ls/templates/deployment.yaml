@@ -20,3 +20,12 @@ spec:
         envFrom:
           - secretRef:
               name: {{ template "wikijs.fullname" . }}
+        volumeMounts:
+        - mountPath: /wiki/config.yml
+          subPath: config.yml
+          name: config-volume
+          readOnly: true
+      volumes:
+      - configMap:
+          name: {{ template "wikijs.fullname" . }}
+        name: config-volume
